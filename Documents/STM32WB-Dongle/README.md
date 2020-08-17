@@ -1,10 +1,25 @@
-# stm32wb_programmer
+# STM32WB-DONGLE
 ## Intoduction
- The STM32WB is a multiprotocol wireless and ultra-low-power device embeds a powerful and ultra-low-power radio compliant with the Bluetooth® Low Energy SIG specification v5.0 or with IEEE 802.15.4-2011. It contains a dedicated Arm® Cortex® -M0+ for performing all the real-time low layer operation.  
- 
- The devices are designed to be extremely low-power and are based on the high-performance Arm® Cortex®-M4 32-bit RISC core operating at a frequency of up to 64 MHz. The Cortex®-M4 core features a Floating point unit (FPU) single precision that supports all Arm® single-precision data-processing instructions and data types. It also implements a full set of DSP instructions and a memory protection unit (MPU) that enhances application security. Enhanced inter-processor communication is provided by the IPCC with six bidirectional channels. The HSEM provides hardware semaphores used to share common resources between the two processors.       
- 
- ### - The STM32WBx5 wireless microcontrollers, available in multiple packages and different memory sizes, provide users with enhanced performance and flexibility to address different levels of complexity.     
- ### - The STM32WBx0 Value Line focuses on the essentials and offers a feature-optimized, cost-effective solution for developers.
 
-This is tool describe basic to start the setup and stack & FUS falshing to the STM32WBxx.
+ - Dongle has STM32WB55CG MCU
+	- STM32WB 	-- 32-bit microcontroller, based on Arm® Cortex® processor(s)
+	- WB		-- Wireless Bluetooth® and 802.15.4
+	- 55		-- Die 5, 1 Mbyte of Flash memory, 256 Kbytes of SRAM, full set of features
+	- C		-- Number of pins (R = 48)
+	- G 		-- Memory size (G = 1 Mbyte)
+
+ - STM32WB microcontroller in VFQFNP48 package
+ - 2.4 GHz RF transceiver supporting Bluetooth® specification v5.0 and IEEE 802.15.4-2011 PHY and MAC
+ - Dedicated Arm® 32-bit Cortex® M0+ CPU for real-time Radio layer
+
+
+![Block Diagram](Images/image_1.png)
+
+
+
+
+
+
+
+
+
